@@ -1,0 +1,176 @@
+
+/* //********* font link **************/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,300;0,400;1,200&family=Ysabeau+Infant&display=swap');/* //********* universal **************/
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Ysabeau Infant', sans-serif; */
+
+
+/* //*********** logo **************/
+
+.navbar-brand{
+  color: rgb(5, 215, 218);
+}
+
+.navbar-brand:hover{
+  color: rgb(5, 215, 218);
+}
+
+/* //*********** navbar **************/
+
+.navbar{
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  font-weight: 500;
+  color: rgb(252, 252, 252);
+}
+
+.nav-link:hover{
+  color: rgb(5, 215, 218);
+}
+
+.active{
+  border-bottom: 2px solid rgb(186, 186, 186);
+  color: rgb(5, 215, 218);
+}
+
+.navbar-brand{
+  font-family: 700;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+  color: rgb(5, 215, 218);
+  font-size: 25px;
+}
+
+
+/* // ********** footer ************/
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.footer a:hover{
+  color: rgb(5, 215, 218);
+  border-bottom: 2px solid rgb(186, 186, 186);
+}
+
+
+/* //*********** page not found **************/
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  margin-top: 20px;
+  width: 140px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.pnf-btn:hover{
+  color: black;
+  background-color: rgb(86, 86, 86);
+}
+
+/* //*********** contact **************/
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.met-img{
+  width: 100%;
+}
+
+/* //*********** about **************/
+
+.about-img{
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* //*********** background img **************/
+
+.bg{
+  background-image: linear-gradient(0deg, #999999 0%, #000000 100%);
+  min-height: 80vh;
+}
+
+
+/* //*********** home page **************/
+
+.par{
+  color: rgb(255, 117, 117);
+  text-align: center;
+}
+
+
+/* //*********** drop_down menu **************/
+
+.dropdown-menu{
+  background-color: #000000;
+}
+
+.dropdown-item{
+  color: rgb(208, 208, 208);
+  font-size: 18px;
+}
+
+.dropdown-item:hover{
+  color: rgb(5, 215, 218);
+  background-color: #222222;
+}
+
+/* //*********** product-link product page **************/
+.product-link{
+  text-decoration: none;
+  color: black;
+}
+
